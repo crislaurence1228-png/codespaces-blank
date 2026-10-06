@@ -20,19 +20,19 @@
     <br></br>
 
     <label for="studentid">Student ID: </label>
-    <input type="text" name="studentid" id="studentid">
+    <input type="text" placeholder="Enter your student ID" name="studentid" id="studentid">
     <br></br>
     
     <label for="fullname">Full Name:</label>
-    <input type="text" name="fullname" id="fullname">
+    <input type="text" placeholder="Enter your full name" name="fullname" id="fullname">
     <br></br>
 
     <label for="email">Email:</label>
-    <input type="email" name="email" id="email">
+    <input type="email" placeholder="Enter your email" name="email" id="email">
     <br></br>
 
     <label for="password">Password</label>
-    <input type="password" name="password" id="password">
+    <input type="password" placeholder="Enter your password" name="password" id="password">
     <br></br>
 
     <label for="gender">Gender:</label>
@@ -40,7 +40,39 @@
     <label for="male">Male</label>
 
     <input type="radio" name="gender" id="female" value="Female">
-    <label for="Female">Female</label>
-    
+    <label for="female">Female</label>
+    <br></br>
+
+    <label for="course">Course</label>
+    <select name="course" id="course">
+        <option value="">Select course</option>
+        <option value="Computer Engineering">Computer Engineering</option>
+        <option value="Computer Science">Computer Science</option>
+        <option value="Information Technology">Information Technology</option>
+        <option value="Electronics Engineering">Electronics Engineering</option>  
+    </select>
+    <br></br>
+
+    <label for="hobbies">Hobbies:</label>
+    <input type="checkbox" name="hobbies" id="reading" value="Reading">
+    <label for="reading">Reading</label>
+
+    <input type="checkbox" name="hobbies" id="traveling" value="Traveling">
+    <label for="traveling">Traveling</label>
+
+    <input type="checkbox" name="hobbies" id="gaming" value="Gaming">
+    <label for="gaming">Gaming</label>
+
+    <input type="checkbox" name="hobbies" id="music" value="Music">
+    <label for="music">Music</label>
+    <br></br>
+
+    <label for="address">Address:</label>   
+    <input type="text" name="address" id="address" placeholder="Enter your address">
+    <br></br>
+
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+
 </body>
 </html>

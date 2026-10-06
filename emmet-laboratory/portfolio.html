@@ -6,20 +6,97 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>Cris Laurence B. Lopez</h1>
-            <p>I am a BSIT student in the Unviersity of the Cordilleras</p>
-            <nav>
-                <ul>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                </ul>
-            </nav>
-        </header>
-    </div>
+    <header>
+        <h1>Cris Laurence Lopez</h1>
+        <p>I am a BSIT student in the University of the Cordilleras</p>
+    </header>
+    
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id ="home">
+        <h2>Home</h2>
+        <p>Welcome! This is my personal website</p>
+    </section>
+
+    <section id="about">
+        <h2>About</h2>
+        <p>Hi! I am a dedicated student who is very passionate about programming, problem-solving, and studying beyond what is required.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills Section</h2>
+        <p>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>PHP</li>
+                <li>JavaScript</li>
+                <li>MySQL</li>
+                <li>Git</li>
+            </ul>
+        </p>
+    </section>
+
+        <section id="projects">
+            <h2>My Projects</h2>
+
+            <article>
+                <h3>Personal Website</h3>
+                <p>A simple personal website to introduce myself and showcase my skills.</p>
+            </article>
+            <a href="#">View Project</a>
+            <br></br>
+
+            <article>
+                <h3>Healthcate Navigation System</h3>
+                <p>A healthcare-related application that allows you to lcoate the nearest healthcare facility.</p>
+            </article>
+            <a href="#">View Project</a>
+            <br></br>
+
+            <article>
+                <h3>To-Do List App</h3>
+                <p>A simple application for managing daily tasks.</p>
+            </article>
+            <a href="#">View Project</a>
+        </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+    </section>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" placeholder="Enter your full name"name="name" id="name">
+        <br></br>
+
+        <label for="email">Email:</label>
+        <input type="email" placeholder="Enter your email" name="email" id="email">
+        <br></br>
+
+        <label for="subject">Subject: </label>
+        <input type="text" placeholder="Enter subject"name="subject" id="subject">
+        <br></br>
+
+        <label for="message">Message:</label><br>
+        <textarea name="message" id="message" row="6" cols="40" placeholder="Enter your message"></textarea>
+        
+        
+        <br></br>
+
+        <button type="button">Submit</button>
+        
+    </form>
+
+    <footer>
+        <p>&copy;2026 - Cris Laurence Lopez</p>
+    </footer>
+
+
 </body>
 </html>

@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.card{
+    width: 280px;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+    background-color: white;
+}
+
+.card h2{
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #0f172a;
+}
+
+.card p{
+    margin: 0;font-size: 15px;
+    line-height: 1.5;
+    color: #475569;
+}

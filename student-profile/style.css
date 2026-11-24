@@ -10,7 +10,6 @@ body {
   line-height: 1.6;
 }
 
-/* Header */
 .site-header {
   background-color: #0f172a;
   color: #ffffff;
@@ -29,7 +28,6 @@ body {
   color: #cbd5e1;
 }
 
-/* Navigation (Flexbox) */
 .site-nav {
   background-color: #1e293b;
   padding: 10px 20px;
@@ -59,7 +57,6 @@ body {
   color: #ffffff;
 }
 
-/* Main Content & Sections */
 .container {
   max-width: 960px;
   margin: 24px auto;
@@ -80,7 +77,6 @@ body {
   color: #0f172a;
 }
 
-/* About & Profile Image */
 .about-content {
   display: flex;
   align-items: center;
@@ -96,7 +92,6 @@ body {
   flex-shrink: 0;
 }
 
-/* Skills */
 .skills-list {
   display: flex;
   flex-wrap: wrap;
@@ -115,7 +110,6 @@ body {
   font-size: 0.95rem;
 }
 
-/* Project Cards */
 .card-container {
   display: flex;
   gap: 20px;
@@ -142,7 +136,6 @@ body {
   color: #475569;
 }
 
-/* Contact Form */
 .contact-form {
   display: flex;
   flex-direction: column;
@@ -193,7 +186,6 @@ body {
   background-color: #1d4ed8;
 }
 
-/* Footer */
 .site-footer {
   background-color: #0f172a;
   color: #cbd5e1;
